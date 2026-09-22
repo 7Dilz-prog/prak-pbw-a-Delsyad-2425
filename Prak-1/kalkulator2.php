@@ -7,6 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     $b = (float) ($_POST['b'] ?? 0);
     $operator = $_POST['operator'] ?? '+';
 
+    // Membuat Operator dalam Kalkulator
     switch ($operator){
         case '+':
             $hasil = $a + $b;
@@ -33,6 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 }
 ?>
 
+<!-- Tampilan dari Operator Kalkulator -->
 <!doctype html>
 <html lang="id">
 
@@ -47,6 +49,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     <form method="post">
         <input type = "number" step = "any" name= "a"
 required>
+
+        // <!-- pemilihan opsi operator (untuk user) -->
         <select name="operator">
             <option value="+">Addition (+)</option>
             <option value="-">Subtraction (-)</option>
@@ -56,7 +60,10 @@ required>
         </select>
         <input type = "number" step = "any" name= "b"
 required>
+
+        <!-- Menjalankan Operator yang Dipilih -->
         <button type="submit">Start Counting</button>
+
         </form>
         <?php if ($pesan): ?>
             <p><?= htmlspecialchars($pesan) ?></p>
@@ -67,10 +74,12 @@ required>
 
 </html>
 
+<!-- Menambahkan Style pada Tampilan Website -->
 <style>
-    body { font-family: Arial, sans-serif; margin: 40px; text-align: center; background: #575757;}
+    body { font-family: Arial, sans-serif; margin: 40px; text-align: center; background: #7a7a7a;}
     h1 { font-size: 50px; color: white;}
-    form { background: #f4f4f4; padding: 20px; border-radius: 8px; inline-block; }
+    form { background: #000000; padding: 20px; border-radius: 8px; inline-block; }
     input, select, button { padding: 8px; margin: 5px; }
     button { background: #fffb00; color: black; border-color: black; cursor: pointer; }
+    input {background: #f4f4f4;}
 </style>
