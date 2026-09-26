@@ -31,7 +31,7 @@
           <img width="356" height="74" alt="image" src="https://github.com/user-attachments/assets/0d76f270-033b-48a1-93e2-a35f71b6f50d" />
           <img width="438" height="99" alt="image" src="https://github.com/user-attachments/assets/64e784ad-cd34-4dba-ae45-0a5d30340d33" />
 
-       2. Penambahan style/css
+       3. Penambahan style/css
           <img width="686" height="136" alt="image" src="https://github.com/user-attachments/assets/d898fb35-9266-452e-99ec-ad220fc7166b" />
 
 
