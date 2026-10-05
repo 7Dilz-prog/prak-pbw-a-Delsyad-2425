@@ -25,7 +25,7 @@
 
 <body>
 
-    <header class="navbar" id="navbar">
+
         <nav class="nav-links">
             <a href="/" class="nav-item" data-lang-key="nav_profile">Beranda</a>
             <a href="/tentang-kami" class="nav-item" data-lang-key="nav_kegiatan">Tentang Kami</a>
