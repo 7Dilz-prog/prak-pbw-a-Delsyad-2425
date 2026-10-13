@@ -1,7 +1,7 @@
-# LAPORAN TUGAS PRAKTIKUM PERTEMUAN 1 PRAK PBW (SE)
-## Delsyad Iza - 4524210025
+# 📘 LAPORAN TUGAS PRAKTIKUM PERTEMUAN 1 PRAK PBW (SE)
+## 👨‍💻 Delsyad Iza - 4524210025
 
-1. Jalankan seluruh contoh Pertemuan 1 hingga menghasilkan output tanpa error kritis.
+1. 📌 Jalankan seluruh contoh Pertemuan 1 hingga menghasilkan output tanpa error kritis.
    **Jawaban**
    - kalkulator.php
      <img width="959" height="570" alt="image" src="https://github.com/user-attachments/assets/c8bd5fde-ecbc-4b25-9335-820a5348f39c" />
@@ -10,9 +10,9 @@
      <img width="959" height="572" alt="image" src="https://github.com/user-attachments/assets/9d756c3e-fbc4-4b51-9473-28f2a417c700" />
 
 
-2. Buat minimal dua modifikasi bermakna pada program (misalnya field baru, kondisi baru, styling, query, atau validasi). 
-3. Tuliskan penjelasan singkat untuk lima bagian kode yang menurut Anda paling penting.
-4. Sertakan screenshot sebelum dan sesudah modifikasi.
+2. 📌 Buat minimal dua modifikasi bermakna pada program (misalnya field baru, kondisi baru, styling, query, atau validasi). 
+3. 📌 Tuliskan penjelasan singkat untuk lima bagian kode yang menurut Anda paling penting.
+4. 📌 Sertakan screenshot sebelum dan sesudah modifikasi.
    
    **Jawaban**
    - Kalkulator
@@ -58,11 +58,13 @@
         <img width="686" height="139" alt="image" src="https://github.com/user-attachments/assets/830bac39-818e-4173-829a-0d86065e562a" />
 
 
-5. Tuliskan satu error yang pernah muncul, penyebabnya, dan langkah perbaikannya
+5. 📌 Tuliskan satu error yang pernah muncul, penyebabnya, dan langkah perbaikannya
    
    **Jawaban**
-
-   Error yang muncul adalah saat penambahan nama pada option seperti "addition (+)" dimana hasil yang keluar saat di hitung adalah "operator tidak valid". Solusi perbaikan adalah penambahan "value="+/-/*///^" agar section option teks dapat membaca operator kodenya.
+   
+⚠️ Error yang muncul adalah saat penambahan nama pada option seperti "addition (+)" dimana hasil yang keluar saat di
+    hitung adalah "operator tidak valid". Solusi perbaikan adalah penambahan "value="+/-/*///^" agar section option teks
+    dapat membaca operator kodenya.
 
 
 
