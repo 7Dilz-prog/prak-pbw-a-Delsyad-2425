@@ -1,0 +1,269 @@
+/* ===================================================
+   Style Sederhana - Praktikum PBW (LaraPress)
+   Halaman: Dashboard, About, Contact, dan Login
+   =================================================== */
+
+/* Container & Card Sederhana */
+.simple-container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.simple-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.simple-card-header {
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.simple-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0;
+}
+
+.simple-card-subtitle {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+/* Grid & Box Statistik Dashboard */
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.stat-box {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+}
+
+.stat-box-title {
+    font-size: 0.85rem;
+    color: #64748b;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+
+.stat-box-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+/* Quick Action / Tombol */
+.btn-group-simple {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.btn-simple {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-simple-primary {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.btn-simple-primary:hover {
+    background-color: #1d4ed8;
+    color: #ffffff;
+}
+
+.btn-simple-secondary {
+    background-color: #64748b;
+    color: #ffffff;
+}
+
+.btn-simple-secondary:hover {
+    background-color: #475569;
+    color: #ffffff;
+}
+
+.btn-simple-outline {
+    background-color: transparent;
+    border-color: #cbd5e1;
+    color: #334155;
+}
+
+.btn-simple-outline:hover {
+    background-color: #f1f5f9;
+}
+
+.btn-simple-instagram {
+    background-color: #e1306c;
+    color: #ffffff;
+}
+
+.btn-simple-instagram:hover {
+    background-color: #c13584;
+    color: #ffffff;
+}
+
+/* List & Box Kontak */
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-label {
+    font-size: 0.8rem;
+    color: #64748b;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.contact-value {
+    font-size: 1rem;
+    color: #1e293b;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.contact-value a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.contact-value a:hover {
+    text-decoration: underline;
+}
+
+/* Info Box / Halaman About */
+.about-desc {
+    color: #475569;
+    font-size: 0.975rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.info-table th, .info-table td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.9rem;
+}
+
+.info-table th {
+    background-color: #f8fafc;
+    color: #475569;
+    font-weight: 600;
+    width: 30%;
+}
+
+.info-table td {
+    color: #1e293b;
+}
+
+/* Badge Sederhana */
+.simple-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+/* Header Form Login */
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-header h2 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 6px;
+}
+
+.login-header p {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin: 0;
+}
+
+/* Tombol Log In & Register di Navbar */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-auth {
+    display: inline-block;
+    padding: 7px 16px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-auth-login {
+    color: #cbd5e1;
+    border: 1px solid #475569;
+    background-color: transparent;
+}
+
+.btn-auth-login:hover {
+    color: #ffffff;
+    border-color: #94a3b8;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.btn-auth-register {
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: 1px solid #4f46e5;
+}
+
+.btn-auth-register:hover {
+    background-color: #4338ca;
+    border-color: #4338ca;
+    color: #ffffff;
+}
+
