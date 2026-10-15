@@ -1,4 +1,4 @@
-# 📖 Laporan Praktikum Pertemuan Ke - 5
+# 📖 LAPORAN TUGAS PRAKTIKUM PERTEMUAN 5 PRAK PBW (SE)
 **👨‍💼 Delsyad Iza - 4524210025**
 
 # 🏫 Website SMP Mentari Ceria
