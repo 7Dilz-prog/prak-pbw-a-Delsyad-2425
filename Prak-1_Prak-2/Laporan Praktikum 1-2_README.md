@@ -1,5 +1,6 @@
-# LAPORAN TUGAS PRAKTIKUM PERTEMUAN 1 PRAK PBW (SE)
-## Delsyad Iza - 4524210025
+# LAPORAN TUGAS PRAKTIKUM PERTEMUAN 1-2 PRAK PBW (SE)
+## "Pengenalan PHP Dasar dan OOP PHP"
+### Delsyad Iza - 4524210025
 
 1. Jalankan seluruh contoh Pertemuan 1 hingga menghasilkan output tanpa error kritis.
    **Jawaban**
