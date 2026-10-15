@@ -1,6 +1,6 @@
 # LAPORAN TUGAS PRAKTIKUM PERTEMUAN 3 PRAK PBW (SE)
 ## "Installasi Laravel 12 (LaraPress)"
-## Delsyad Iza - 4524210025
+### Delsyad Iza - 4524210025
 
 1. Buat satu halaman statis baru bernama "Kontak".
    <img width="643" height="547" alt="image" src="https://github.com/user-attachments/assets/ab67a100-69d9-48d0-a8f6-54ae5f96f271" />
