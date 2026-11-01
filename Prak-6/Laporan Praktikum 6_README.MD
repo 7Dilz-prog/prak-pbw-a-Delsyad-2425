@@ -8,3 +8,16 @@ Merupakan aplikasi Sistem Manajemen Buku menggunakan framework Laravel dan Filam
   <img src="https://img.shields.io/badge/Tailwind\_CSS-4.0-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </p>
+
+# Instalasi Authbook
+### Langkah 1.1: Membuat Project Laravel Baru
+```bash
+# Buat project Laravel baru
+composer create-project laravel/laravel authbook
+
+# Masuk ke direktori project
+cd authbook
+
+# Jalankan development server untuk test
+php artisan serve
+```
