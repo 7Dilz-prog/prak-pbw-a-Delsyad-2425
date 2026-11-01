@@ -830,10 +830,16 @@ php artisan optimize:clear
 
 # 📝 Tugas dan Evaluasi
 ### Tugas 1: Implementasi Dasar (Nilai: 40)
+
 Implementasikan semua langkah di atas dan buktikan dengan:
+
 ✅ Screenshot admin panel yang berhasil login
 
 ✅ Screenshot list books dengan data yang terseed
+
 ✅ Screenshot form create book
+
 ✅ Screenshot hasil pencarian
+
 ✅ Screenshot filter aktif
+
