@@ -21,3 +21,28 @@ cd authbook
 # Jalankan development server untuk test
 php artisan serve
 ```
+
+### Langkah 1.2: Konfigurasi Database
+#### Untuk SQLite (paling mudah untuk praktikum)
+```bash
+touch database/database.sqlite
+```
+Edit file `.env`:
+```env
+DB_CONNECTION=sqlite
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=laravel
+# DB_USERNAME=root
+# DB_PASSWORD=
+```
+#### Alternatif menggunakan MySQL:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=authbook
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
