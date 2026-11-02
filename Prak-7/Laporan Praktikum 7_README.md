@@ -1,4 +1,4 @@
-# 📖 LAPORAN TUGAS PRAKTIKUM PERTEMUAN 6 PRAK PBW (SE)
+# 📖 LAPORAN TUGAS PRAKTIKUM PERTEMUAN 7 PRAK PBW (SE)
 **👨‍💼 Delsyad Iza - 4524210025**
 
 # 🏫 Website Sistem Manajemen Buku "Authbook"
